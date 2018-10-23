@@ -19,7 +19,7 @@ kubectl config current-context
 
 Add execution permissions to the deploy script
 ```sh
-chmod +x deploy.sh
+chmod +x de*.sh
 ```
 Run the `deploy.sh` script
 ```sh
@@ -39,4 +39,10 @@ curl http://192.168.99.100:30300
 Test the Hello Reversed app!
 ```sh
 curl http://192.168.99.100:30400
+```
+
+
+Clean up after you are done!
+```sh
+./destroy.sh
 ```
