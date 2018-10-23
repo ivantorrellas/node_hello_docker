@@ -26,7 +26,7 @@ Run the `deploy.sh` script
 ./deploy.sh
 ```
 
-Check the pods
+Check that the pods are ready
 ```sh
 kubectl get pods
 ```
