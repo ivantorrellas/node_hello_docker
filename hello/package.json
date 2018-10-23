@@ -1,0 +1,16 @@
+{
+  "name": "node_hello",
+  "version": "1.0.0",
+  "description": "Node.js Dockerize",
+  "author": "Ivan Torrellas <ivan.torrellas@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivantorrellas/node_hello_docker.git"
+  },
+  "main": "hello.js",
+  "scripts": {
+    "start": "node hello.js"
+  },
+  "dependencies": {}
+}
