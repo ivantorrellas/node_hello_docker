@@ -1,0 +1,16 @@
+{
+  "name": "node_reversed",
+  "version": "1.0.0",
+  "description": "Node.js Dockerize",
+  "author": "Ivan Torrellas <ivan.torrellas@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivantorrellas/node_hello_docker.git"
+  },
+  "main": "reversed.js",
+  "scripts": {
+    "start": "node reversed.js"
+  },
+  "dependencies": {}
+}
